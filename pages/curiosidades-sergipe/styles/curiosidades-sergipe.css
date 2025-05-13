@@ -1,32 +1,32 @@
-* {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
    font-family: 'Xilosa';
-   src: url(../assets/font/xilosa.ttf) format('truetype');
+   src: url(../../../assets/fonts/xilosa.ttf) format('truetype');
    font-weight: normal;
    font-style: normal;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: green;
 }
 
 nav {
    display: flex;
    justify-content: space-between;
    color: #0c0c0c;
-   padding: 10px 250px ;
+   padding: 10px 100px;
    position: static;
    top: 0;
    width: 100%;
 }
 
 nav a {
-   color: #0c0c0c;
+   color: #fff;
    text-decoration: none;
-   font-family: 'Montserrat', sans-serif;
 }
 
 nav a:hover {
@@ -34,29 +34,31 @@ nav a:hover {
 }
 
 nav .nav-logo {
-   padding: 5px 10px;
+   padding: 15px 10px;
    font-family: 'Xilosa', sans-serif;
    font-size: 1.75rem;
 }
 
 nav .nav-links {
    display: flex;
+   padding: 10px;
 }
 
 nav .search {
    display: flex;
    align-items: center;
-   gap: 7px;
+   gap: 11px;
    color: #0c0c0c;
-   border-radius: 25px;
-   margin-right: 15px;
-   padding: 9px;
    border: 1px solid #0c0c0c;
-   width: 100px;
+   border-radius: 25px;
+   padding: 9px;
 }
 
 nav .nav-links a {
    padding: 10px 15px;
+   color: #0c0c0c;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
 }
 
 .container {
@@ -67,21 +69,28 @@ nav .nav-links a {
    padding: 20px;
 }
 
-.header-sergipe{
-   font-family: 'Xilosa', sans-serif !important;
+.header-sergipe {
    font-size: 1.25em;
    padding: 15px;
 }
 
-#siri-aracaju, #igreja-sao-cristovao, #xingo {
-   width: 600px; height: 400px;
-   margin: 20px 0;
-   border-radius: 10px;
-
+.header-text {
+   font-family: 'Xilosa', sans-serif;
 }
 
-#mapa-sergipe, #mapa-aracaju{
-   width: 350px; height: 350px;
+#siri-aracaju,
+#igreja-sao-cristovao,
+#xingo {
+   width: 600px;
+   height: 400px;
+   margin: 20px 0;
+   border-radius: 10px;
+}
+
+#mapa-sergipe,
+#mapa-aracaju {
+   width: 350px;
+   height: 350px;
    margin: 20px 0;
 }
 
@@ -94,10 +103,13 @@ nav .nav-links a {
    width: 720px;
    padding: 20px;
    border-radius: 10px;
+   /* border: 1px solid black; */
    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
-h1, p {
+h1,
+p {
    font-family: 'Montserrat', sans-serif;
    text-align: center;
+   font-weight: 500;
 }
