@@ -5,6 +5,12 @@
 
 h2 {
     text-align: center;
+    font-family: 'Xilosa', sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'font-family: 'Montserrat', sans-serif;';
 }
 
 a {
@@ -12,83 +18,40 @@ a {
     color: black;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    color: #0c0c0c;
-    padding: 10px 100px;
-    position: static;
-    top: 0;
+#intro img {
     width: 100%;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-nav .nav-logo {
-    padding: 15px 10px;
-    font-family: 'Xilosa', sans-serif;
-    font-size: 1.75rem;
-}
-
-nav .nav-links {
-    display: flex;
-    padding: 10px;
-}
-
-nav .search {
-    display: flex;
-    align-items: center;
-    gap: 11px;
-    color: #0c0c0c;
-    border: 1px solid #0c0c0c;
-    border-radius: 25px;
-    padding: 9px;
-}
-
-nav .nav-links a {
-    padding: 10px 15px;
-    color: #0c0c0c;
-}
-
-#intro img{
-    width: 100%;
-}
-
-#intro p{
+#intro p {
     font-size: 12px;
     text-align: end;
     margin-bottom: 40px;
     margin-right: 6px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#inicio h2{
+#inicio h2 {
     text-align: center;
-    font-style: italic;
     margin-top: 4px;
-    font-size: 34px;
+    font-size: 52px;
+    font-family: 'Xilosa', sans-serif;
 }
 
 
-#subTitulo{
+#subTitulo {
     text-align: center;
     margin-top: 5px;
-    margin-bottom:30px;
+    margin-bottom: 34px;
     font-size: 20px;
+    font-family: 'Xilosa', sans-serif;
 }
 
 
-.textoInicial{
+.textoInicial {
     margin: 2.5% 23% 5%;
     text-align: justify;
     font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container_carrossel {
@@ -103,7 +66,7 @@ nav .nav-links a {
     animation: 50s slide infinite linear;
 }
 
-.carrossel_inicio > img {
+.carrossel_inicio>img {
     margin: 0 50px;
     border-radius: 15px;
 }
@@ -155,6 +118,7 @@ nav .nav-links a {
     border-radius: 15px;
     padding: 13px;
     transition: 0.1s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card2:hover {
@@ -195,6 +159,7 @@ nav .nav-links a {
 #fala {
     text-align: start;
     margin: 2% 10% 0% 20%;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: 300;
 }
@@ -221,6 +186,7 @@ nav .nav-links a {
 #fala2 {
     text-align: start;
     margin: 2% 10% 2% 10%;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: 300;
 }
@@ -238,10 +204,12 @@ footer {
     display: flex;
     flex-direction: row;
     margin-right: 6px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #sobre_projeto {
     margin: 3% 15% 1% 19%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #sobre_projeto a {
@@ -251,4 +219,5 @@ footer {
 #devs {
     margin: 3% 28% 3% 14%;
     padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
