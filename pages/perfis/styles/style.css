@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .profile {
@@ -27,7 +36,7 @@
 .profile-info h1 {
     margin: 0;
     font-size: 24px;
-    padding: 5px 10px;
+    padding: 5px 0;
     font-family: 'Xilosa', sans-serif;
     font-size: 1.2752rem;
 }
@@ -43,6 +52,7 @@
 
 li {
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .gallery {
@@ -58,4 +68,13 @@ li {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.gallery_vid {
+    width: 90%;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
 }
