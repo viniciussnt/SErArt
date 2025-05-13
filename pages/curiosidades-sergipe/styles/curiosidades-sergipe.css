@@ -1,0 +1,103 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+   font-family: 'Xilosa';
+   src: url(../assets/font/xilosa.ttf) format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   color: #0c0c0c;
+   padding: 10px 250px ;
+   position: static;
+   top: 0;
+   width: 100%;
+}
+
+nav a {
+   color: #0c0c0c;
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+nav .nav-logo {
+   padding: 5px 10px;
+   font-family: 'Xilosa', sans-serif;
+   font-size: 1.75rem;
+}
+
+nav .nav-links {
+   display: flex;
+}
+
+nav .search {
+   display: flex;
+   align-items: center;
+   gap: 7px;
+   color: #0c0c0c;
+   border-radius: 25px;
+   margin-right: 15px;
+   padding: 9px;
+   border: 1px solid #0c0c0c;
+   width: 100px;
+}
+
+nav .nav-links a {
+   padding: 10px 15px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+
+.header-sergipe{
+   font-family: 'Xilosa', sans-serif !important;
+   font-size: 1.25em;
+   padding: 15px;
+}
+
+#siri-aracaju, #igreja-sao-cristovao, #xingo {
+   width: 600px; height: 400px;
+   margin: 20px 0;
+   border-radius: 10px;
+
+}
+
+#mapa-sergipe, #mapa-aracaju{
+   width: 350px; height: 350px;
+   margin: 20px 0;
+}
+
+.container-curiosidades {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 20px 0;
+   width: 720px;
+   padding: 20px;
+   border-radius: 10px;
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+h1, p {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
