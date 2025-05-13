@@ -1,65 +1,20 @@
-@font-face {
-   font-family: 'Xilosa';
-   src: url(../../../assets/fonts/xilosa.ttf) format('truetype');
-   font-weight: normal;
-   font-style: normal;
-}
-
-* {box-sizing: border-box;
+* {
+   box-sizing: border-box;
    margin: 0;
    padding: 0;
-   font-family: Arial, Helvetica, sans-serif;
+
 }
 
-nav {
-   display: flex;
-   justify-content: space-between;
-   background-color: #fff;
-   color: #0c0c0c;
-   padding: 10px 100px;
-   position: static;
-   top: 0;
-   width: 100%;
-}
-
-nav a {
-   color: #fff;
+a {
    text-decoration: none;
+   color: black;
 }
 
-nav a:hover {
-   text-decoration: underline;
-}
-
-nav .nav-logo {
-   padding: 15px 10px;
-   font-family: 'Xilosa', sans-serif;
-   font-size: 1.75rem;
-}
-
-nav .nav-links {
-   display: flex;
-   padding: 10px;
-}
-
-nav .search {
-   display: flex;
-   align-items: center;
-   gap: 11px;
-   color: #0c0c0c;
-   border: 1px solid #0c0c0c;
-   border-radius: 25px;
-   padding: 9px;
-}
-
-nav .nav-links a {
-   padding: 10px 15px;
-   color: #0c0c0c;
-}
 
 h1 {
    font-size: 2rem;
    text-align: center;
+   font-family: 'Xilosa', sans-serif;
 }
 
 .container {
