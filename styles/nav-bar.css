@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Xilosa';
+    src: url(../assets/fonts/xilosa.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #0c0c0c;
+    padding: 10px 100px;
+    position: static;
+    top: 0;
+    width: 100%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .nav-logo {
+    padding: 15px 10px;
+    font-size: 1.75rem;
+    font-family: 'Xilosa', sans-serif;
+}
+
+nav .nav-logo a {
+    color: #0c0c0c;
+    font-family: 'Xilosa', sans-serif;
+}
+
+nav .nav-links {
+    display: flex;
+    padding: 10px;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: #0c0c0c;
+    border: 1px solid #0c0c0c;
+    border-radius: 25px;
+    padding: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav .nav-links a {
+    padding: 10px 15px;
+    color: #0c0c0c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
