@@ -123,6 +123,7 @@ a {
 .card_img img {
     border-radius: 100%;
     margin-top: 12px;
+    width: 131px;
 }
 
 .swiper-button-prev::after,
