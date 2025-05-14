@@ -12,34 +12,70 @@ nav a:hover {
     text-decoration: underline;
 }
 
-nav .nav-logo {
+.nav-logo {
     padding: 15px 10px;
     font-size: 1.75rem;
     font-family: 'Xilosa', sans-serif;
 }
 
-nav .nav-logo a {
+.nav-logo a {
     color: #0c0c0c;
     font-family: 'Xilosa', sans-serif;
 }
 
-nav .nav-links {
+.nav-links {
     display: flex;
     padding: 10px;
 }
 
-nav .search {
+.search-box {
     display: flex;
-    align-items: center;
-    gap: 11px;
+    gap: 10px;
+    position: relative;
     color: #0c0c0c;
-    border: 1px solid #0c0c0c;
-    border-radius: 25px;
-    padding: 9px;
+    padding-top: 6px;
     font-family: 'Montserrat', sans-serif;
+    max-height: 200px;
 }
 
-nav .nav-links a {
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    border: 1px solid #0c0c0c;
+    font-size: 1rem;
+}
+
+.btn-search {
+    border: 1px solid #0c0c0c;
+    background: #0c0c0c;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#artistas {
+    position: absolute;
+    background: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    top: 100%;
+    width: 221px;
+    color: black;
+    border-top: none;
+    max-height: 150px; /* limita altura */
+    overflow-y: auto; /* permite rolar */
+    z-index: 10;
+}
+
+/* Mostrar dropdown quando input está focado */
+.search-box input[type="text"]:focus+.search-dropdown {
+    display: block;
+}
+
+.nav-links a {
     padding: 10px 15px;
     color: #0c0c0c;
     font-family: 'Montserrat', sans-serif;

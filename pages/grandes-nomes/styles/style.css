@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -15,7 +16,6 @@ main {
    align-items: center;
    padding: 20px;
    gap: 20px;
-   /* background-color: darkgray; */
 }
 
 h1 {
@@ -29,8 +29,6 @@ h1 {
    align-items: center;
    padding: 20px;
    gap: 10px;
-
-   /* background-color: #f8f9fa; */
 }
 
 .header p {
@@ -51,7 +49,6 @@ h1 {
    align-items: center;
    padding: 20px;
    width: 1000px;
-   /* background-color: red; */
 }
 
 .info {
@@ -60,11 +57,9 @@ h1 {
    align-items: center;
    padding: 20px;
    gap: 10px;
-   /* background-color: darkblue; */
 }
 
 .content_text {
-   /* background-color: aquamarine; */
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -78,12 +73,7 @@ h1 {
    font-family: 'Xilosa', sans-serif;
 }
 
-.content_text p {
-   font-family: 'Montsserat', sans-serif;
-}
-
 .content_img {
-   /* background-color: lightblue; */
    padding: 20px;
 }
 
@@ -95,7 +85,6 @@ h1 {
    width: 930px;
    padding: 17px;
    gap: 10px;
-   /* background-color: lightgreen; */
 }
 
 .cards {
@@ -104,11 +93,6 @@ h1 {
    align-items: center;
    padding: 20px;
    gap: 10px;
-   /* background-color: lightcoral; */
-}
-
-.card p {
-   font-family: 'Montsserat', sans-serif;
 }
 
 .img {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,24 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/nav-bar.css">
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <nav>
         <div class="nav-logo">SErArte</div>
-            <div class="nav-links">
-                <div class="search">
-                    <p>Buscar</p>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <a href="./pages/artistas/artistas.html">Artistas</a>
-                <a href="./pages/curiosidades-sergipe/curiosidades-sergipe.html">Curiosidades</a>
-                <a href="./pages/grandes-nomes/grandes-nomes.html">Grandes Nomes</a>
+        <div class="nav-links">
+            <div class="search-box">
+                <input type="text" id="campoBusca" placeholder="Digite o nome da fruta" autocomplete="off">
+                <button class="btn-search" onclick="pesquisarFruta()">Pesquisar</button>
+                <div id="artistas"></div>
             </div>
+            <a href="./pages/artistas/artistas.html">Artistas</a>
+            <a href="./pages/curiosidades-sergipe/curiosidades-sergipe.html">Curiosidades</a>
+            <a href="./pages/grandes-nomes/grandes-nomes.html">Grandes Nomes</a>
+        </div>
         </div>
     </nav>
 
@@ -33,26 +38,37 @@
         <div id="inicio">
             <h2>"Sergipe, suas belezas"</h2>
             <p id="subTitulo">Descubra os encantos deste Estado</p>
-            <p class="textoInicial">Sendo um estado rico em cultura e tradição, lar de artistas talentosos que expressam a essência e os encantos da região. Seja na pintura, escultura, artesanato ou outras formas de expressão, esses artistas refletem em seus trabalhos as cores, paisagens, festas populares e a identidade do povo sergipano. Suas criações não apenas embelezam, mas também contam histórias e preservam a memória cultural de um estado vibrante e cheio de inspiração.</p>
+            <p class="textoInicial">Sendo um estado rico em cultura e tradição, lar de artistas talentosos que expressam
+                a essência e os encantos da região. Seja na pintura, escultura, artesanato ou outras formas de
+                expressão, esses artistas refletem em seus trabalhos as cores, paisagens, festas populares e a
+                identidade do povo sergipano. Suas criações não apenas embelezam, mas também contam histórias e
+                preservam a memória cultural de um estado vibrante e cheio de inspiração.</p>
         </div>
 
         <div class="container_carrossel">
-        <div class="carrossel_inicio">
-            <img src="./assets/imgs/imgPisa.png" alt="Imagem da bebida Pisa Macio">
-            <img src="./assets/imgs/imgArtesanato.png" alt="Imagem do Mercado Municipal de Aracaju">
-            <img src="./assets/imgs/imgCulinaria.png" alt="Imagem de potes de doces típicos sendo vendidos">
-            <img src="./assets/imgs//imgGrafiti.png" alt="Imagem de uma parede pintada com desenho sibolizando os festejos juninos">
-            <img src="./assets/imgs/imgXilogravura.png" alt="Imagem de várias pessoas esculpidas com a técnica da xilogravura">
+            <div class="carrossel_inicio">
+                <img src="./assets/imgs/imgPisa.png" alt="Imagem da bebida Pisa Macio">
+                <img src="./assets/imgs/imgArtesanato.png" alt="Imagem do Mercado Municipal de Aracaju">
+                <img src="./assets/imgs/imgCulinaria.png" alt="Imagem de potes de doces típicos sendo vendidos">
+                <img src="./assets/imgs//imgGrafiti.png"
+                    alt="Imagem de uma parede pintada com desenho sibolizando os festejos juninos">
+                <img src="./assets/imgs/imgXilogravura.png"
+                    alt="Imagem de várias pessoas esculpidas com a técnica da xilogravura">
 
-            <img src="./assets/imgs/imgPisa.png" alt="Imagem da bebida Pisa Macio">
-            <img src="./assets/imgs/imgArtesanato.png" alt="Imagem do Mercado Municipal de Aracaju">
-            <img src="./assets/imgs/imgCulinaria.png" alt="Imagem de potes de doces típicos sendo vendidos">
-            <img src="./assets/imgs/imgGrafiti.png" alt="Imagem de uma parede pintada com desenho sibolizando os festejos juninos">
-            <img src="./assets/imgs/imgXilogravura.png" alt="Imagem de várias pessoas esculpidas com a técnica da xilogravura">
-        </div>
+                <img src="./assets/imgs/imgPisa.png" alt="Imagem da bebida Pisa Macio">
+                <img src="./assets/imgs/imgArtesanato.png" alt="Imagem do Mercado Municipal de Aracaju">
+                <img src="./assets/imgs/imgCulinaria.png" alt="Imagem de potes de doces típicos sendo vendidos">
+                <img src="./assets/imgs/imgGrafiti.png"
+                    alt="Imagem de uma parede pintada com desenho sibolizando os festejos juninos">
+                <img src="./assets/imgs/imgXilogravura.png"
+                    alt="Imagem de várias pessoas esculpidas com a técnica da xilogravura">
+            </div>
         </div>
 
-        <p class="textoInicial">Em cada canto da cidade, há talentos que merecem ser ouvidos, vistos e reconhecidos. Artistas locais carregam consigo histórias, emoções e culturas que enriquecem nossa comunidade. Ao apoiar quem cria perto de nós, promovemos a diversidade, incentivamos a economia criativa e construímos um cenário cultural mais justo e vibrante.</p>
+        <p class="textoInicial">Em cada canto da cidade, há talentos que merecem ser ouvidos, vistos e reconhecidos.
+            Artistas locais carregam consigo histórias, emoções e culturas que enriquecem nossa comunidade. Ao apoiar
+            quem cria perto de nós, promovemos a diversidade, incentivamos a economia criativa e construímos um cenário
+            cultural mais justo e vibrante.</p>
 
         <h2>Bordados</h2>
         <section class="container">
@@ -75,7 +91,8 @@
                                 <a href="./pages/perfis/bordados/sofia.html">
                                     <p>Sofia Mertz</p>
                                     <div class="card_img">
-                                        <img src="./assets/imgs/imgSofiaMertz.png" alt="Imagem de um bordado escrito 'Pedro Emanuel' com uma girafa, elefante e folhas bordados">
+                                        <img src="./assets/imgs/imgSofiaMertz.png"
+                                            alt="Imagem de um bordado escrito 'Pedro Emanuel' com uma girafa, elefante e folhas bordados">
                                     </div>
                                 </a>
                             </div>
@@ -113,12 +130,16 @@
 
         <div id="breve_falas">
             <div id="fala">
-                <p>“No caso do meio ambiente do estado de Sergipe percebe-se, ainda, que serviu de inspiração aos pintores nativos, em diversos aspectos, mas, principalmente, na forma sobre qual a natureza é recriada, carregando sempre características locais vinculadas, diretamente, às experiências vividas por cada um deles.”</p>
+                <p>“No caso do meio ambiente do estado de Sergipe percebe-se, ainda, que serviu de inspiração aos
+                    pintores nativos, em diversos aspectos, mas, principalmente, na forma sobre qual a natureza é
+                    recriada, carregando sempre características locais vinculadas, diretamente, às experiências vividas
+                    por cada um deles.”</p>
                 <p class="nome_autor">Everton Santos, 2021</p>
             </div>
 
             <div>
-                <img src="./assets/imgs/imgLambesujo.png" alt="Imagem do monumento 'Lambe-sujo e cabloquinhos' localizado na Rua da Frente">
+                <img src="./assets/imgs/imgLambesujo.png"
+                    alt="Imagem do monumento 'Lambe-sujo e cabloquinhos' localizado na Rua da Frente">
             </div>
         </div>
 
@@ -144,7 +165,8 @@
                                 <a href="./pages/perfis/musica/thebaggios.html">
                                     <p>The Baggios</p>
                                     <div class="card_img">
-                                        <img src="./assets/imgs/imgTheBaggios.png" alt="Imagem dos três participantes da Banda">
+                                        <img src="./assets/imgs/imgTheBaggios.png"
+                                            alt="Imagem dos três participantes da Banda">
                                     </div>
                                 </a>
                             </div>
@@ -155,7 +177,8 @@
                                 <a href="./pages/perfis/musica/morgana.html">
                                     <p>Morgana</p>
                                     <div class="card_img">
-                                        <img src="./assets/imgs/imgMorgana.png" alt="Imagem da cantora na capa do seu novo álbum">
+                                        <img src="./assets/imgs/imgMorgana.png"
+                                            alt="Imagem da cantora na capa do seu novo álbum">
                                     </div>
                                 </a>
                             </div>
@@ -166,7 +189,8 @@
                                 <a href="./pages/perfis/musica/cidadedormitorio.html">
                                     <p>Cidade Dormitório</p>
                                     <div class="card_img">
-                                        <img src="./assets/imgs/imgCidadeDormitorio.png" alt="Imagem dos três participantes da banda em um meio urbano">
+                                        <img src="./assets/imgs/imgCidadeDormitorio.png"
+                                            alt="Imagem dos três participantes da banda em um meio urbano">
                                     </div>
                                 </a>
                             </div>
@@ -182,7 +206,8 @@
 
         <div id="breve_falas2">
             <div>
-                <img src="./assets/imgs/imgBoi.png" alt="Imagem do monumento 'Bumba meu boi' localizado na Rua da Frente">
+                <img src="./assets/imgs/imgBoi.png"
+                    alt="Imagem do monumento 'Bumba meu boi' localizado na Rua da Frente">
             </div>
             <div id="fala2">
                 <p>“As décadas de 70 e 80 foram marcadas por grandes Festivais de Música no Brasil, valorizando a música
@@ -204,7 +229,8 @@
                                 <a href="./pages/perfis/culinaria/elibolos.html">
                                     <p>Eli Bolos</p>
                                     <div class="card_img">
-                                        <img src="./assets/imgs/imgEliBolos.png" alt="Imagem de um bolo na temática da loja">
+                                        <img src="./assets/imgs/imgEliBolos.png"
+                                            alt="Imagem de um bolo na temática da loja">
                                     </div>
                                 </a>
                             </div>
@@ -215,7 +241,8 @@
                                 <a href="./pages/perfis/culinaria/mafeitaria.html">
                                     <p>Mafeitaria</p>
                                     <div class="card_img">
-                                        <img src="./assets/imgs/imgMafeitaria.png" alt="Imagem da dona em meio aos seus bolos">
+                                        <img src="./assets/imgs/imgMafeitaria.png"
+                                            alt="Imagem da dona em meio aos seus bolos">
                                     </div>
                                 </a>
                             </div>
@@ -279,5 +306,7 @@
 
     <script src="./assets/javascript/swiper-budle.min.js"></script>
     <script src="./assets/javascript/main.js"></script>
+    <script src="./assets/javascript/search.js"></script>
 </body>
+
 </html>

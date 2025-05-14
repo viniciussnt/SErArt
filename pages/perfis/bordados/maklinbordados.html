@@ -12,12 +12,13 @@
 <body>
    <nav>
       <div class="nav-logo">
-         <a href="../../index.html">SErArte</a>
+         <a href="../../../index.html">SErArte</a>
       </div>
          <div class="nav-links">
-            <div class="search">
-               <p>Buscar</p>
-               <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="search-box">
+                <input type="text" id="campoBusca" placeholder="Digite o nome da fruta" autocomplete="off">
+                <button class="btn-search" onclick="pesquisarFruta()">Pesquisar</button>
+                <div id="artistas"></div>
             </div>
             <a href="../../artistas/artistas.html">Artistas</a>
             <a href="../../curiosidades-sergipe/curiosidades-sergipe.html">Curiosidades</a>
@@ -47,5 +48,7 @@
       <img src="../imgs/bordados/maklinbordados/trabalho 05.jpg" alt="Post 5">
       <img src="../imgs/bordados/maklinbordados/trabalho06.jpg" alt="Post 6">
    </div>
+
+   <script src="../../../assets/javascript/search.js"></script>
 </body>
 </html>
