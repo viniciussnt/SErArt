@@ -6,6 +6,10 @@
    font-family: 'Montserrat', sans-serif;
 }
 
+a {
+   color: black;
+}
+
 .container {
    display: flex;
    flex-direction: column;
