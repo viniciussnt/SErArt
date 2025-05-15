@@ -3,7 +3,7 @@ const frutas = [
     { nome: "sofia mertz", url: "../SErArt/pages/perfis/bordados/sofiamertz.html" },
     { nome: "casa rechiliê", url: "./SErArt/pages/perfis/bordados/casarechilie.html" },
     { nome: "cris musse", url: "/SErArt/pages/perfis/bordados/crismusse.html" },    
-    { nome: "sandyalê", url: "/pages/perfis/musica/sandyale.html" },
+    { nome: "sandyalê", url: "../pages/perfis/musica/sandyale.html" },
     { nome: "the baggios", url: "/pages/perfis/musica/thebaggios.html" },
     { nome: "morgana", url: "/pages/perfis/musica/morgana.html" },
     { nome: "cidade dormitório", url: "/pages/perfis/musica/casadormitorio.html" },
