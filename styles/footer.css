@@ -1,0 +1,40 @@
+footer {
+    background-color: #E3E3E3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#footer_sobre,
+#footer_sobre p {
+    display: flex;
+    flex-direction: row;
+    margin-right: 6px;
+}
+
+.logo {
+    font-family: 'Xilosa', sans-serif !important;
+    font-size: 1.15em;
+}
+
+#sobre_projeto {
+    margin: 3% 15% 1% 19%;
+}
+
+#sobre_projeto a {
+    text-decoration: none;
+}
+
+#sobre_projeto a:visited {
+    color: #000;
+}
+
+#sobre_projeto a:hover {
+    text-decoration: underline;
+}
+
+#devs {
+    margin: 3% 28% 3% 14%;
+    padding-top: 30px;
+}
