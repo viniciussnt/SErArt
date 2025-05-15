@@ -1,16 +1,16 @@
 const frutas = [
-    { nome: "maklin bordados", url: "./pages/perfis/bordados/maklinbordados.html" },
-    { nome: "sofia mertz", url: "../SErArt/pages/perfis/bordados/sofiamertz.html" },
-    { nome: "casa rechiliê", url: "./SErArt/pages/perfis/bordados/casarechilie.html" },
+    { nome: "maklin bordados", url: "/pages/perfis/bordados/maklinbordados.html" },
+    { nome: "sofia mertz", url: "/SErArt/pages/perfis/bordados/sofiamertz.html" },
+    { nome: "casa rechiliê", url: "/SErArt/pages/perfis/bordados/casarechilie.html" },
     { nome: "cris musse", url: "/SErArt/pages/perfis/bordados/crismusse.html" },    
-    { nome: "sandyalê", url: "../pages/perfis/musica/sandyale.html" },
-    { nome: "the baggios", url: "/pages/perfis/musica/thebaggios.html" },
-    { nome: "morgana", url: "/pages/perfis/musica/morgana.html" },
-    { nome: "cidade dormitório", url: "/pages/perfis/musica/casadormitorio.html" },
-    { nome: "eli bolos", url: "/pages/perfis/culinaria/elibolos.html" },
-    { nome: "mafeitaria", url: "/pages/perfis/culinaria/mafeitaria.html" },  
-    { nome: "terra tupi", url: "/pages/perfis/culinaria/terratupi.html" },  
-    { nome: "aloha truf's", url: "/pages/perfis/culinaria/alohatrufs.html" }  
+    { nome: "sandyalê", url: "/SErArt/pages/perfis/musica/sandyale.html" },
+    { nome: "the baggios", url: "/SErArt/pages/perfis/musica/thebaggios.html" },
+    { nome: "morgana", url: "/SErArt/pages/perfis/musica/morgana.html" },
+    { nome: "cidade dormitório", url: "/SErArt/pages/perfis/musica/casadormitorio.html" },
+    { nome: "eli bolos", url: "/SErArt/pages/perfis/culinaria/elibolos.html" },
+    { nome: "mafeitaria", url: "/SErArt/pages/perfis/culinaria/mafeitaria.html" },  
+    { nome: "terra tupi", url: "/SErArt/pages/perfis/culinaria/terratupi.html" },  
+    { nome: "aloha truf's", url: "/SErArt/pages/perfis/culinaria/alohatrufs.html" }  
 ];
 
 const campoBusca = document.getElementById('campoBusca');
