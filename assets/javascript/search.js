@@ -1,5 +1,5 @@
 const frutas = [
-    { nome: "maklin bordados", url: "/pages/perfis/bordados/maklinbordados.html" },
+    { nome: "maklin bordados", url: "./SErArt/pages/perfis/bordados/maklinbordados.html" },
     { nome: "sofia mertz", url: "/pages/perfis/bordados/sofiamertz.html" },
     { nome: "casa rechiliê", url: "/pages/perfis/bordados/casarechilie.html" },
     { nome: "cris musse", url: "pages/perfis/bordados/crismusse.html" },    
